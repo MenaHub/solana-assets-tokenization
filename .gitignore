@@ -1,0 +1,10 @@
+t10n-express/node_modules
+t10n-express/.profile.swp
+t10n-express/npm-debug.log
+
+t10n-smartcontract/target
+t10n-smartcontract/**/*.rs.bk
+t10n-smartcontract/node_modules
+t10n-smartcontract/test-ledger
+
+t10n-backend

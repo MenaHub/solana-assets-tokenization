@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.localnet]
+t10n_smartcontract = "53n8Hoi9jnhcTBgu4tVyJBT8JEJKxU2TsmHJE2ghtaQh"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/menarbin/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
+
+[test]
+startup_wait = 100000
